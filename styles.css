@@ -1222,13 +1222,13 @@ form {
 
   @media only screen and (max-width:550px){
     .knowmoreproduct {
-        background: #008a7a;
-        display: flex;
-        width: 64%;
-        margin-left: 16%;
-        margin-bottom: 13%;
-        height: 3vh;
-        border-radius: 5px;
+      background: #008a7a;
+      display: flex;
+      width: 66%;
+      margin-left: 13%;
+      margin-bottom: 13%;
+      height: 3vh;
+      border-radius: 5px;
     }
     .productcarddiv {
         display: flex;
@@ -1250,11 +1250,11 @@ form {
         font-size: 11px;
     }
     #cardbutton {
-        font-size: 14px;
-        align-self: center;
-        margin-left: 19%;
-        color: #ffff;
-    }
+      font-size: 12px;
+      align-self: center;
+      margin-left: 24%;
+      color: #ffff;
+  }
     .cardItem {
         display: flex;
         flex-direction: column;
