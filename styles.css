@@ -16,6 +16,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    overflow-x: hidden;
 }
 .monitor-content{
     color: white;
@@ -269,11 +270,13 @@ ul{
 
 .head{
     background-color: #213d30;
+    overflow-x: hidden;
 }
 .header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    overflow-x: hidden;
 }
 .header h1{
     color: white;
@@ -301,6 +304,7 @@ line-height: 45px;
 .aboutparagraph{
     display: flex;
     justify-content: space-around;
+    overflow-x: hidden;
 }
 .secondimagesection{
     display: flex;
@@ -359,6 +363,7 @@ animation: Rotate 5s linear infinite;
 .navlink{
     width: 50%;
     margin-left: 28%;
+    overflow-x: hidden;
 }
 .navlinkcontainerdiv{
     background-image: url("./Images/bgnav.png");
@@ -408,6 +413,7 @@ animation: Rotate 5s linear infinite;
 }
 .generatorchangingdiv{
     width: 100%;
+    overflow-x: hidden ;
 }
 
 /* Industry we serve */
@@ -615,6 +621,7 @@ animation: Rotate 5s linear infinite;
     width: 100%;
     height: 100%;
     /* padding: 20px; */
+    overflow-x: hidden;
 }
   
 .grid-container {
@@ -786,17 +793,20 @@ form {
     background-color: #333333; /* Add this line */
     padding: 40px 0;
     text-align: center;
+    overflow-x: hidden;
   }
   #Realtime h1 {
     color: white;
   }
   #Aboutus {
     background-color: #f5f5f5;
+    overflow-x: hidden;
   }
   .h_container {
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow-x: hidden;
   }
   
   .testimonial-card img {
@@ -896,10 +906,14 @@ form {
 
 @media screen and (max-width : 600px)
 {
+  body{
+    overflow-x: hidden;
+  }
     .monitor{
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
+        overflow-x: hidden;
     }
     .monitor-img {
         width: 100%;
@@ -920,6 +934,9 @@ form {
 
 @media screen and (max-width:1200px) and (min-width: 601px) 
 {
+  body{
+    overflow-x: hidden;
+  }
     .monitor{
         flex-direction: column-reverse;
         justify-content: center;
@@ -948,6 +965,9 @@ form {
 /* Responsive : Priyanshu */
 
 @media only screen and (min-width: 1655px){
+  body{
+    overflow-x: hidden;
+  }
     #cardimage {
       width: 233px;
       align-self: center;
@@ -956,6 +976,9 @@ form {
     }
   }
   @media screen and (max-width: 1654px) and (min-width: 1580px) {
+    body{
+      overflow-x: hidden;
+    }
     #cardbutton {
       font-size: 25px;
     }
@@ -971,6 +994,9 @@ form {
   }
 
   @media screen and (max-width:1579px) and (min-width:1150px){
+    body{
+      overflow-x: hidden;
+    }
     #cardimage {
         width: 220px;
         align-self: center;
@@ -1026,6 +1052,9 @@ form {
   }
   
   @media only screen and (max-width: 1149px) and (min-width: 770px) {
+    body{
+      overflow-x: hidden;
+    }
     #cardimage {
       width: 206px;
       align-self: center;
@@ -1118,6 +1147,9 @@ form {
   }
 
   @media only screen and (max-width:769px){
+    body{
+      overflow-x: hidden;
+    }
     #cardimage {
         width: 205px;
         align-self: center;
@@ -1257,6 +1289,9 @@ form {
   }
 
   @media only screen and (max-width:550px){
+    body{
+      overflow-x: hidden;
+    }
     .knowmoreproduct {
       background: #008a7a;
       display: flex;
@@ -1288,7 +1323,7 @@ form {
     #cardbutton {
       font-size: 12px;
       align-self: center;
-      margin-left: 24%;
+      margin-left: 22%;
       color: #ffff;
   }
     .cardItem {
@@ -1458,6 +1493,9 @@ form {
   }
 
   @media only screen and (max-width:400px){
+    body{
+      overflow-x: hidden;
+    }
     /* About us */
     #aboutsectionheading {
       font-size: 14px;
@@ -1629,6 +1667,9 @@ form {
   
 }
   @media only screen and (max-width:320px){
+    body{
+      overflow-x: hidden;
+    }
     #aboutsectionheading {
       font-size: 10px;
     }
