@@ -328,6 +328,10 @@ line-height: 45px;
 .secondimagesection{
   margin-top: 8%;
 }
+/*
+.aboutparagraphphoto{
+animation: Rotate 5s linear infinite;
+}*/
 /* about us section end ho raha hai */
 
 .navlink ul {
@@ -561,6 +565,30 @@ line-height: 45px;
     transform: translatex(-1400px);
   }
 }*/
+
+
+/* for about us section 
+@keyframes rotate {
+  20%{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  100%{
+    display: flex;
+    flex-direction: column;
+  }
+}
+@keyframes Rotate1 {
+  50%{
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  100%{
+    display: flex;
+    flex-direction: row;
+  }
+}
+*/
 /* Priyanshu */
 
 
@@ -807,6 +835,7 @@ form {
     }
   }
 
+
   #testimonials h1 {
     text-align: center;
   }
@@ -896,10 +925,11 @@ form {
         justify-content: center;
         align-items: center;
     }
+    /*
     .monitor-img{
         width: 700px;
         height: 400px;
-    }
+    }*/
     /*
     .clients-image img{
         width: 20%;
@@ -917,7 +947,7 @@ form {
 
 /* Responsive : Priyanshu */
 
-@media only screen and (min-width: 1655px) {
+@media only screen and (min-width: 1655px){
     #cardimage {
       width: 233px;
       align-self: center;
@@ -987,6 +1017,12 @@ form {
       background: #15E384;
       border-radius: 5px;
     }
+    /* realtime */
+    .monitor-img {
+      width: 624px;
+      height: 391px;
+      margin-top: 11%;
+  }
   }
   
   @media only screen and (max-width: 1149px) and (min-width: 770px) {
