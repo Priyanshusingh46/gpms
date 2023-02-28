@@ -277,6 +277,7 @@ ul{
     flex-direction: row;
     justify-content: space-between;
     overflow-x: hidden;
+    height: 10vh;
 }
 .header h1{
     color: white;
@@ -299,7 +300,7 @@ font-size: 27px;
 line-height: 45px;
 }
 .aboutparagraphtext{
-    width: 70%;
+    width: 54%;
 }
 .aboutparagraph{
     display: flex;
@@ -310,10 +311,10 @@ line-height: 45px;
     display: flex;
 }
 
-#imageofaboutus{
-    width: 73px;
-    height: 70px;
-    align-self: center;
+#imageofaboutus {
+  width: 110px;
+  height: 100px;
+  align-self: center;
 }
 .firstimagesection{
     display: flex;
@@ -372,9 +373,9 @@ animation: Rotate 5s linear infinite;
     /* height: 100vh; */
     overflow-x: hidden;
 }
-.navlink ul li{
-    height: 8vh;
-    margin-top: 24px;
+.navlink ul li {
+  height: 7vh;
+  margin-top: 12px;
 }
 #generatorimage{
     margin-top: -8%;
@@ -483,6 +484,7 @@ animation: Rotate 5s linear infinite;
   #cardpara {
     font-size: 24px;
     text-align: center;
+    margin-left: 3%;
   }
 /* #cardbutton{
     font-size: 24px;
@@ -1004,8 +1006,9 @@ form {
         margin-top: 5%;
     }
     /* About us section */
-    .aboutparagraphphoto{
-      margin-top: 5%;
+    .aboutparagraphphoto {
+      margin-top: 0%;
+      margin-left: -4%;
     }
     /* Client section */
     .clients-image img {
@@ -1082,6 +1085,11 @@ form {
     }
     .aboutparagraphphoto{
       margin-top: 3%;
+    }
+    #imageofaboutus {
+      width: 85px;
+      height: 72px;
+      align-self: center;
     }
     /* Client section */
     .clients-image img {
@@ -1253,8 +1261,8 @@ form {
       font-size: 19px;
     }
     .navlink ul li {
-      height: 6vh;
-      margin-top: 24px;
+      height: 4vh;
+      margin-top: 22px;
     }
     #generatortext {
       width: 100%;
@@ -1281,9 +1289,10 @@ form {
       margin-right: -19px;
       font-size: 17px;
       margin-top: 28px;
+      display: none;
     }
     #gpmsfullform{
-    font-size: 17px;
+    font-size: 22px;
     margin-top: 29px;
     }
   }
