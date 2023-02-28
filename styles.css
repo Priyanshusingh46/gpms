@@ -546,6 +546,46 @@ animation: Rotate 5s linear infinite;
     color: #ffff;
   }
 
+
+  /* Realtime data */
+.Real-time-data{
+  background: #808080;
+  overflow-x: hidden;
+}
+.cbcbandspcbcontainer{
+  display: flex;
+  justify-content: space-around;
+}
+.cbcbcontainer{
+  background: #ffff;
+  width: 32%;
+  height: 9vh;
+  border-radius: 48px;  
+}
+#cbcb{
+  font-size: 30px;
+  text-align: center;
+}
+
+#realtimepara{
+text-align: center;
+color: #ffff;
+padding: 33px;
+font-size: 36px;
+}
+#realtimedatapara{
+  text-align: center;
+    font-size: 30px;
+    color: #ffff;
+    font-weight: 600;
+    /* margin-bottom: 80px; */
+    padding: 33px;
+}
+#hreflink1 {
+  list-style: none;
+  text-decoration: none;
+  color: #728AB7;
+}
 /*@keyframes slide {
     0% {
       transform: translate3d(0, 0, 0);
