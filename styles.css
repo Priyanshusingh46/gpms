@@ -282,6 +282,7 @@ ul{
 .header h1{
     color: white;
     margin-right: 40px;
+    display: none;
 }
 .header-logo{
     width: 100px;
@@ -1471,7 +1472,7 @@ form {
       font-size: 25px;
       text-align: center;
       /* margin-top: 11%; */
-      padding-top: 24px;
+      padding-top: 9px;
     }
 
     /* new design navbar*/
@@ -1773,6 +1774,12 @@ form {
       flex-direction: column;
     }
 
+    .firstimagesection {
+      display: flex;
+      flex-direction: column;
+      margin-left: -5%;
+    }
+
   }
 
   @media only screen and (max-width:400px){
@@ -1963,7 +1970,7 @@ form {
   #cbcb {
     font-size: 15px;
     text-align: center;
-    padding-top: 23px;
+    margin-top: 28px;
   }
   #realtimedatapara {
     font-size: 10px;
