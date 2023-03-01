@@ -366,13 +366,63 @@ animation: Rotate 5s linear infinite;
     margin-left: 28%;
     overflow-x: hidden;
 }
+/*
 .navlinkcontainerdiv{
     background-image: url("./Images/bgnav.png");
     background-size: cover;
     background-repeat: no-repeat;
-    /* height: 100vh; */
     overflow-x: hidden;
+}*/
+
+/* new css for top part*/
+.navlinkcontainerdiv{
+  background: url("./Images/matthew-smith-Rfflri94rs8-unsplash\ 1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
+#slidingpara{
+  color: #ffff;
+  font-size: 86px;
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: 10px;
+}
+
+#slidingpara1{
+  font-size: 40px;
+  text-align: center;
+  color: #ffff;
+  margin-top: -3%;
+}
+.threedivwala{
+  display: flex;
+  justify-content: center;
+  padding-top: 10%;
+  padding-bottom: 3%;
+}
+#boldtext{
+  font-size: 28px;
+  color:#ffff;
+  font-weight: 600;
+  text-align: center;
+
+}
+#simpletext{
+  font-size: 20px;
+  color: #ffff;
+  text-align: center;
+}
+.oneofthreediv{
+  display: flex;
+   width: 23%;
+   flex-direction: column;
+}
+
+#toppageimage{
+  width: 94px;
+  align-self: center;
+}
+/* new top design end */
 .navlink ul li {
   height: 7vh;
   margin-top: 12px;
@@ -1226,6 +1276,42 @@ form {
       width: 110%;
       height: 6vh;
     }
+
+    /* new front */
+    #slidingpara {
+      color: #ffff;
+      font-size: 49px;
+      text-align: center;
+      font-weight: 700;
+      letter-spacing: 3px;
+    }
+    #slidingpara1 {
+      font-size: 26px;
+      text-align: center;
+      color: #ffff;
+      margin-top: -2%;
+    }
+    #toppageimage {
+      width: 73px;
+      align-self: center;
+    }
+    #boldtext {
+      font-size: 20px;
+      color: #ffff;
+      font-weight: 600;
+      text-align: center;
+    }
+    #simpletext {
+      font-size: 15px;
+      color: #ffff;
+      text-align: center;
+    }
+    .oneofthreediv {
+      display: flex;
+      width: 21%;
+      flex-direction: column;
+      margin-right: 3%;
+    }
   }
 
   @media only screen and (max-width:769px){
@@ -1385,8 +1471,50 @@ form {
       font-size: 25px;
       text-align: center;
       /* margin-top: 11%; */
-      padding-top: 10px;
+      padding-top: 24px;
     }
+
+    /* new design navbar*/
+    #slidingpara
+    {
+      color: #ffff;
+      font-size: 34px;
+      text-align: center;
+      font-weight: 700;
+      letter-spacing: 1px;
+      margin-top: 10%;
+    }
+    #slidingpara1 {
+      font-size: 14px;
+      text-align: center;
+      color: #ffff;
+      margin-top: 0%;
+    }
+    #toppageimage {
+      width: 52px;
+      align-self: center;
+    }
+    #boldtext {
+      font-size: 11px;
+      color: #ffff;
+      font-weight: 600;
+      text-align: center;
+    }
+    #simpletext {
+      font-size: 10px;
+      color: #ffff;
+      text-align: center;
+    }
+    .threedivwala 
+    {
+      display: flex;
+      justify-content: space-evenly;
+      padding-top: 10%;
+      padding-bottom: 3%;
+    }
+  
+  
+  
 
   }
   
@@ -1600,9 +1728,9 @@ form {
       border-radius: 24px;
     }
     #cbcb {
-      font-size: 19px;
+      font-size: 21px;
       text-align: center;
-      padding-top: 18px;
+      padding-top: 28px;
     }
     #realtimedatapara {
       font-size: 14px;
@@ -1612,6 +1740,37 @@ form {
     #phone{
     width: 132%;
     height: 6vh;
+    }
+
+    /* new design */
+    #slidingpara {
+      color: #ffff;
+      font-size: 25px;
+      text-align: center;
+      font-weight: 700;
+      letter-spacing: 1px;
+      margin-top: 10%;
+    }
+    #slidingpara1 {
+      font-size: 11px;
+      text-align: center;
+      color: #ffff;
+      margin-top: -1%;
+    }
+    #toppageimage {
+      width: 41px;
+      align-self: center;
+    }
+    #boldtext {
+      font-size: 10px;
+      color: #ffff;
+      font-weight: 600;
+      text-align: center;
+    }
+    .oneofthreediv {
+      display: flex;
+      width: 25%;
+      flex-direction: column;
     }
 
   }
@@ -1815,6 +1974,45 @@ form {
     width: 106%;
     height: 6vh;
   }
+
+  /* new design */
+
+  #slidingpara {
+    color: #ffff;
+    font-size: 19px;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 7%;
+  }
+  #slidingpara1 {
+    font-size: 9px;
+    text-align: center;
+    color: #ffff;
+    margin-top: -1%;
+  }
+  #toppageimage {
+    width: 34px;
+    align-self: center;
+  }
+  #simpletext {
+    font-size: 8px;
+    color: #ffff;
+    text-align: center;
+  }
+  #boldtext {
+    font-size: 9px;
+    color: #ffff;
+    font-weight: 600;
+    text-align: center;
+  }
+  .threedivwala {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 7%;
+    margin-top: 12%;
+    padding-bottom: 3%;
+  }
   
 }
   @media only screen and (max-width:320px){
@@ -1896,6 +2094,39 @@ form {
 #phone{
   width: 96%;
   height: 6vh;
+  }
+  #gpmsfullform {
+    font-size: 11px;
+    margin-top: 29px;
+  }
+  #slidingpara {
+    color: #ffff;
+    font-size: 13px;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 6%;
+  }
+  #slidingpara1 {
+    font-size: 8px;
+    text-align: center;
+    color: #ffff;
+    margin-top: -1%;
+  }
+  #toppageimage {
+    width: 27px;
+    align-self: center;
+  }
+  #boldtext {
+    font-size: 7px;
+    color: #ffff;
+    font-weight: 600;
+    text-align: center;
+  }
+  #simpletext {
+    font-size: 6px;
+    color: #ffff;
+    text-align: center;
   }
 
 }
