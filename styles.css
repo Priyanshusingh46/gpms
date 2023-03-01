@@ -743,6 +743,12 @@ form {
     background-color: #4caf50;
     color: white;
   }
+
+  /* new form */
+  #phone{
+    width: 153%;
+    height: 9vh;
+  }
 /* Chayanika */
 
 
@@ -1031,6 +1037,11 @@ form {
       font-size: 21px;
       text-align: center;
     }
+    /* form */
+    #phone{
+      width: 144%;
+      height: 7vh;
+    }
 
     
   }
@@ -1092,7 +1103,12 @@ form {
       height: 391px;
       margin-top: 11%;
   }
+  /* form */
+  #phone{
+    width: 120%;
+    height: 7vh;
   }
+}
   
   @media only screen and (max-width: 1149px) and (min-width: 770px) {
     body{
@@ -1204,6 +1220,11 @@ form {
       width: 31%;
       height: 9vh;
       border-radius: 37px;
+    }
+    /* form */
+    #phone{
+      width: 110%;
+      height: 6vh;
     }
   }
 
@@ -1366,6 +1387,7 @@ form {
       /* margin-top: 11%; */
       padding-top: 10px;
     }
+
   }
   
 
@@ -1586,6 +1608,12 @@ form {
       font-size: 14px;
     }
 
+    /* form */
+    #phone{
+    width: 132%;
+    height: 6vh;
+    }
+
   }
 
   @media only screen and (max-width:400px){
@@ -1781,6 +1809,12 @@ form {
   #realtimedatapara {
     font-size: 10px;
   }
+
+  /* form */
+  #phone{
+    width: 106%;
+    height: 6vh;
+  }
   
 }
   @media only screen and (max-width:320px){
@@ -1857,5 +1891,11 @@ form {
 #realtimedatapara {
   font-size: 8px;
 }
+
+/* form */
+#phone{
+  width: 96%;
+  height: 6vh;
+  }
 
 }

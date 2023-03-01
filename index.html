@@ -6,9 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <!--Yeh new form anne ke baad add kiya hai-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
     <title>GPMS</title>
 </head>
-<body>
+<>
 
     <!-- header start -->           
     <div class="head">
@@ -571,7 +577,7 @@ container.addEventListener('mouseleave', startSlideshow);
     <!-- Client Testimonial end -->
 
 
-    <!-- Quote start -->
+    <!-- Quote start previous
     <section id="quote">
     <div class="get-quote">
         <div class="container">
@@ -615,7 +621,74 @@ container.addEventListener('mouseleave', startSlideshow);
         </div>
     </div>
     </section>
+    -->
     <!-- Quote end -->
+
+
+
+
+    <!--New Quotes by Chaniya-->
+    <section id="quote">
+    <div class="get-quote">
+    <div class="container">
+        <div class="text">Request a Free Quote</div>
+        <form name="contact-form" action="https://formspree.io/f/xnqydrae"
+        method="POST">
+          <div class="grid-container">
+            <div class="grid-item">
+              <div class="input_data">
+                <label>Country</label>
+                <input type="text" name="country" />
+              </div>
+              <div class="input_data">
+                <label>Name</label>
+                <input type="text" name="name" />
+              </div>
+              <div class="input_data">
+                <label>E-mail Address</label>
+                <input type="text" name="email" />
+              </div>
+            </div>
+            <div class="grid-item">
+              <div class="input_data">
+                <label>Company</label>
+                <input type="text" name="company" />
+              </div>
+              <div class="input_data">
+                <label>Contact No.</label><br>
+                <input type="tel" name="contact_no" id="phone" />
+              </div>
+              <div class="input_data">
+                <label>How can we help?</label>
+                <textarea name="help"></textarea>
+              </div>
+            </div>
+          </div>
+          <div>
+            <input id="btn" type="submit" value="Get a Free Quote"  />
+          </div>
+        </form>
+      </div>
+      </div>
+      </section>
+  <script>
+      const phoneInputField = document.querySelector("#phone");
+      const phoneInput = window.intlTelInput(phoneInputField, {
+        utilsScript:
+          "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
+      });
+  </script>
+  
+  <script>
+            
+      window.onbeforeunload = () => {
+      for(const form of document.getElementsByTagName('form')) {
+        form.reset();
+      }
+    }
+    </script>
+
+    <!--New Form End-->
 
 
 
