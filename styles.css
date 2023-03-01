@@ -559,7 +559,7 @@ animation: Rotate 5s linear infinite;
 .cbcbcontainer{
   background: #ffff;
   width: 20%;
-  height: 9vh;
+  height: 12vh;
   border-radius: 48px;  
 }
 #cbcb{
@@ -1192,6 +1192,19 @@ form {
       background: #15E384;
       border-radius: 5px;
     }
+    /* Real time data */
+    #realtimepara {
+      text-align: center;
+      color: #ffff;
+      padding: 33px;
+      font-size: 27px;
+    }
+    .cbcbcontainer {
+      background: #ffff;
+      width: 31%;
+      height: 9vh;
+      border-radius: 37px;
+    }
   }
 
   @media only screen and (max-width:769px){
@@ -1335,7 +1348,26 @@ form {
     font-size: 22px;
     margin-top: 29px;
     }
+
+    /* Real Time */
+    #realtimepara {
+      font-size: 23px;
+    }
+    #realtimedatapara {
+      font-size: 20px;
+    }
+    .cbcbcontainer {
+      width: 39%;
+      border-radius: 50px;
+    }
+    #cbcb {
+      font-size: 25px;
+      text-align: center;
+      /* margin-top: 11%; */
+      padding-top: 10px;
+    }
   }
+  
 
   @media only screen and (max-width:550px){
     body{
@@ -1537,7 +1569,22 @@ form {
     background-color: #213d30;
     width: 101%;
   }
-
+    /* real time */
+    #realtimepara {
+      font-size: 17px;
+    }
+    .cbcbcontainer {
+      width: 36%;
+      border-radius: 24px;
+    }
+    #cbcb {
+      font-size: 19px;
+      text-align: center;
+      padding-top: 18px;
+    }
+    #realtimedatapara {
+      font-size: 14px;
+    }
 
   }
 
@@ -1676,7 +1723,7 @@ form {
     font-size: 9px;
   }
   .navlink ul li {
-    height: 4vh;
+    height: 3vh;
     margin-top: 11px;
   }
   #generatortext {
@@ -1706,12 +1753,33 @@ form {
     margin-top: 28px;
   }
   #gpmsfullform {
-  font-size: 10px;
+  font-size: 14px;
   margin-top: 29px;
   }
   .header-logo {
     width: 73px;
     height: 74px;
+  }
+
+  .header {
+    height: 7vh;
+  }
+
+  /* real time */
+  #realtimepara {
+    font-size: 13px;
+  }
+  .cbcbcontainer {
+    width: 41%;
+    border-radius: 20px;
+  }
+  #cbcb {
+    font-size: 15px;
+    text-align: center;
+    padding-top: 23px;
+  }
+  #realtimedatapara {
+    font-size: 10px;
   }
   
 }
@@ -1769,6 +1837,25 @@ form {
   text-align: center;
   font-family: 'Inter';
   padding-top: 2%;
+}
+
+/* Real time */
+#realtimepara 
+{
+  font-size: 10px;
+}
+.cbcbcontainer {
+  width: 40%;
+  border-radius: 17px;
+  height: 6vh;
+}
+#cbcb {
+  font-size: 11px;
+  text-align: center;
+  padding-top: 16px;
+}
+#realtimedatapara {
+  font-size: 8px;
 }
 
 }
