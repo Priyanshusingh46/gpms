@@ -345,7 +345,7 @@ animation: Rotate 5s linear infinite;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background: #008000;
+    /*background: #008000;*/
     display: flex;
     justify-content: center;
     border-bottom-left-radius: 10px;
