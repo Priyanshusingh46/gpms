@@ -276,7 +276,7 @@ ul{
     background-color: #213d30;
     overflow-x: hidden;
     position: fixed;
-    width: 99%;
+    width: 100%;
     z-index: 100;
 }
 .header{
