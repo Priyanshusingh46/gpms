@@ -1348,6 +1348,10 @@ form {
       flex-direction: column;
       margin-right: 3%;
     }
+    /* new Header */
+    .header {
+      height: 9vh;
+    }
   }
 
   @media only screen and (max-width:769px){
@@ -2070,6 +2074,7 @@ form {
     font-weight: 700;
     letter-spacing: 1px;
     margin-top: 7%;
+    padding-top: 20%;
   }
   #slidingpara1 {
     font-size: 9px;
