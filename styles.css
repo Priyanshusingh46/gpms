@@ -2077,6 +2077,9 @@ form {
     color: #ffff;
     margin-top: -1%;
   }
+  .head {
+    margin-top: -2%;
+}
   #toppageimage {
     width: 34px;
     align-self: center;
