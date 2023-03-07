@@ -336,12 +336,11 @@ line-height: 45px;
 .secondimagesectiondiv1{
     display: flex;
     flex-direction: column;
+    margin-right: 38%;
+    margin-left: -24%;
 }
 .secondimagesection{
-  display: flex;
   margin-top: 8%;
-  width: 100%;
-  justify-content: space-around;
 }
 /*
 .aboutparagraphphoto{
@@ -1461,6 +1460,8 @@ form {
     .secondimagesectiondiv1 {
       display: flex;
       flex-direction: column;
+      margin-right: 25%;
+      margin-left: 25%;
     }
     #imageofaboutus {
       width: 105px;
@@ -1698,8 +1699,8 @@ form {
     .secondimagesectiondiv1 {
       display: flex;
       flex-direction: column;
-     /* margin-right: 29%;
-      margin-left: 20%;*/
+      margin-right: 29%;
+      margin-left: 20%;
     }
     /* montioring */
     .monitor-content h1 {
