@@ -23,7 +23,15 @@
                 <img class="header-logo" src="/GPMS logo white.png" alt="logo">
                 <h2 id="gpmsfullform">Global Pollution Monitoring System</h2>
             </div>
-            <h1>Building a Healthier Environment World</h1>
+            <div class="navlink1">
+                <ul>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#AboutUs">About</a></li>
+                  <li><a href="#service">Service</a></li>
+                  <li><a href="#product">Products</a></li>
+                  <li><a href="#quote">Contact</a></li>
+                </ul>
+          </div>
         </div>
     </div>
     <!-- header end -->
@@ -32,15 +40,7 @@
 
     <!-- navbar start -->
     <div class="navlinkcontainerdiv">
-        <div class="navlink">
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#AboutUs">About Us</a></li>
-            <li><a href="#service">Service</a></li>
-            <li><a href="#product">Products</a></li>
-            <li><a href="#quote">Contact</a></li>
-          </ul>
-    </div>
+       
 
         <!--pahle wala logo
   
@@ -72,7 +72,7 @@
             <div class="oneofthreediv">
               <img src="./Images/zero-emission (1).png" id="toppageimage"/>
               <p id="boldtext">GPMS ONLINE EQUIPMENT</p>
-              <p id="simpletext">Real-Time Ambient Air Quality Monitoring/ Continuous Effluent Monitoring System</p>
+              <p id="simpletext">Real-Time Ambient Air Quality Monitoring / Continuous Effluent Monitoring System</p>
             </div>
     
     
@@ -443,7 +443,7 @@
                 from analyzers & convert it into CSV & PDF formats.
                 </p>
                 <div class="knowmoreproduct">
-                <h4 id="cardbutton"><a id="hreflink" href="./Images/gpmscatalog.pdf">Know more</a></h4>
+                <h4 id="cardbutton"><a id="hreflink" href="./Images/GPMS_Catalogue.pdf">Know more</a></h4>
                 </div>
             </div>
 
@@ -457,7 +457,7 @@
                 
                 <div class="knowmoreproduct">
                 
-                <h4 id="cardbutton"><a id="hreflink" href="/Images/GPMS_Catalogue.pdf">Know more</a></h4>
+                <h4 id="cardbutton"><a id="hreflink" href="./Images/GPMS_Catalogue.pdf">Know more</a></h4>
                 </div>
             </div>
 
@@ -710,6 +710,7 @@ container.addEventListener('mouseleave', startSlideshow);
   <script>
       const phoneInputField = document.querySelector("#phone");
       const phoneInput = window.intlTelInput(phoneInputField, {
+        initialCountry: "in",
         utilsScript:
           "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
       });
