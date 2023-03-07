@@ -26,15 +26,16 @@ body {
     justify-content: center;
     margin: 2rem 3rem 1rem 2rem;
 }
+/*
 .monitor-content-para{
     margin: 2rem;
     background: #000000;
     backdrop-filter: blur(12.5px);
     border-radius: 10px;
     opacity: 0.5;
-}
+}*/
 .monitor-content-para p{
-    margin: 2rem;
+    /*margin: 2rem;*/
     color: white;
     font-family: HelveticaNeue;
     font-size: 18px;
@@ -48,8 +49,8 @@ body {
     text-align: center;
 }
 .monitor-img{
-    width: 800px;
-    height: 500px;
+  width: 661px;
+  height: 398px;
 }
 .monitor-image{
     margin: 1.5rem;
@@ -275,7 +276,7 @@ ul{
     background-color: #213d30;
     overflow-x: hidden;
     position: fixed;
-    width: 100%;
+    width: 99%;
     z-index: 100;
 }
 .header{
@@ -370,7 +371,7 @@ animation: Rotate 5s linear infinite;
     text-decoration: underline;
 }
 .navlink1{
-    width: 50%;
+   /* width: 50%;*/
     /*margin-left: 28%;*/
     overflow-x: hidden;
     padding-top: 3%;
@@ -407,7 +408,7 @@ animation: Rotate 5s linear infinite;
 }
 .threedivwala{
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   padding-top: 10%;
   padding-bottom: 3%;
 }
@@ -718,14 +719,16 @@ font-size: 36px;
 
 
 /* Chayanika */
-
+.formbutton{
+  margin-bottom: 2%;
+}
 .get-quote{
     /* margin: 0; */
     padding: 0;
     box-sizing: border-box;
     background-color: rgb(20, 21, 20);
     color: white;
-    min-height: 100vh;
+    /*min-height: 100vh;*/
 }
 .container {
     font-size: 14px;
@@ -1217,8 +1220,11 @@ form {
       font-size: 17px;
       margin-top: 28px;
     }
+    .full {
+      padding-top: 0%;
+    }
     .navlink1 {
-      padding-top: 4%;
+      padding-top: 1%;
     }
     .navlink1 ul{
       margin-top: 11px;
@@ -1226,6 +1232,22 @@ form {
     .navlink1 ul li a {
       padding: 6px 6px;
     }
+    /* monitoring */
+    .monitor-content-para p {
+       margin: 0; 
+      color: white;
+      font-family: HelveticaNeue;
+      font-size: 22px;
+      font-weight: 400;
+      line-height: 36px;
+  }
+  .monitor-image {
+     margin: 0; 
+  }
+  .monitor-img {
+    width: 558px;
+    height: 312px;
+  }
     /* About us */
     #aboutparagraphtextparahai {
       font-size: 22px;
@@ -1413,8 +1435,13 @@ form {
     .navlink1 ul li a {
       font-size: 20px;
     }
+    /*
     .navlink1 {
       width: 100%;
+  }*/
+  .monitor-img {
+    width: 523px;
+    height: 301px;
   }
     /* About us section */
     .aboutparagraph {
@@ -1648,6 +1675,10 @@ form {
     /* About us section */
     #aboutsectionheading{
       font-size: 18px;
+      margin-top: -3%;
+    }
+    .aboutparagraphtext {
+      width: 98%;
     }
     #aboutparagraphtextparahai {
       font-size: 18px;
@@ -1668,6 +1699,38 @@ form {
       margin-right: 29%;
       margin-left: 20%;
     }
+    /* montioring */
+    .monitor-content h1 {
+      margin-top: 10px;
+      /* font-size: 2em; */
+      width: 100%;
+      text-align: center;
+      font-size: 20px;
+    }
+    .monitor-content-para {
+      margin: 0;
+      margin-top: -3%;
+    }
+    .monitor-content-para p {
+      /* margin: 2rem; */
+      color: white;
+      font-family: HelveticaNeue;
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 22px;
+    }
+    .monitor-img {
+      width: 378px;
+      height: 220px;
+    }
+    .monitor-content {
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin: 0 0 0 0;
+  }
     /* clients*/
     .author {
       font-size: 16px;
@@ -1792,7 +1855,7 @@ form {
   }
   .head {
     background-color: #213d30;
-    width: 101%;
+    width: 98%;
   }
     /* real time */
     #realtimepara {
@@ -1851,7 +1914,7 @@ form {
     .firstimagesection {
       display: flex;
       flex-direction: column;
-      margin-left: -5%;
+      /*margin-left: -5%;*/
     }
 
   }
